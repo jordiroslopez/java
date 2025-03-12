@@ -1,4 +1,7 @@
 package models;
+
+import model.Persona;
+
 public  class Gos {
     // Atributs que descriuen un Gos
     // L'atribut XIP el farem final que vol dir que serà una constant i no se li podrà canviar el valor inicial

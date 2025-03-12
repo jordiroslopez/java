@@ -1,3 +1,5 @@
+package utils.Biblioteca;
+
 import models.Biblioteca;
 import models.Llibre;
 
@@ -37,7 +39,7 @@ public class MainBiblioteca {
     }
 
     private static void imprimirCataleg(Biblioteca biblio) {
-        for (Llibre l : biblio.getCataleg()) {
+        for (int i = 0; i < biblio.getCataleg(); i++) {
             System.out.println(l);
         }
     }

@@ -1,5 +1,3 @@
-package com.recursivitat;
-
 public class Recursivitat {
     public static void main(String[] args) {
         int numerador = 24, denominador = 4;

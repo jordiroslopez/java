@@ -14,8 +14,8 @@ public class CompteEnrereRecursiu {
             System.out.print("Boom!!!");
         }
         else {
-            System.out.print(n + ",");
-            Thread.sleep(500);
+            System.out.println(n);
+            Thread.sleep(1000);
             compteEnrereRecursiu(n - 1);
         }
     }
